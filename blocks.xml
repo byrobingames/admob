@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<palette>
+    
+    <block tag="initAdmob" spec="Initialize AdMob ads with 'BannerID': %0 at %2 and with InterstitialID': %1 in %3 [c:admob]" code="AdMob.init(~,~,~,~);" help="If you only use banner leave InterstitialID empty or if you only use interstitial leave BadderID empty!" type="action" color="charcoal" returns="void">
+        <fields>
+            <text order="0"></text>
+			<text order="1"></text>
+            <dropdown order="2">
+				<choices>
+					<c text="Bottom" code="0"></c>
+					<c text="Top" code="1"></c>
+				</choices>
+			</dropdown>
+            <dropdown order="3">
+				<choices>
+					<c text="Release Mode" code="0"></c>
+					<c text="Test Mode" code="1"></c>
+				</choices>
+			</dropdown>
+        </fields>
+    </block>
+    
+    <block tag="showBanner" spec="Show AdMob banner [c:admob]" code="AdMob.showBanner();" type="action" color="charcoal" returns="void">
+        <fields>
+        </fields>
+    </block>
+    
+    <block tag="hideBanner" spec="Hide AdMob banner [c:admob]" code="AdMob.hideBanner();" type="action" color="charcoal" returns="void">
+        <fields>
+        </fields>
+    </block>
+	
+	 <block tag="moveBanner" spec="Move AdMob banner to %0 [c:admob]" code="AdMob.setBannerPosition(~);" type="action" color="charcoal" returns="void">
+        <fields>
+		<dropdown order="0">
+				<choices>
+					<c text="Bottom" code="0"></c>
+					<c text="Top" code="1"></c>
+				</choices>
+			</dropdown>
+        </fields>
+    </block>
+    
+    <block tag="reInitBanner" spec="Reinitialize AdMob banner [c:admob]" code="AdMob.onResize();" type="action" color="charcoal" returns="void">
+        <fields>
+        </fields>
+    </block>
+    
+    <block tag="getBannerInfo" spec="AdMob banner %0 [c:admob]" code="AdMob.getBannerInfo(~)" type="normal" color="charcoal" returns="boolean">
+        <fields>
+            <dropdown order="0">
+				<choices>
+					<c text="did successfully load" code="0"></c>
+					<c text="did fail to load" code="1"></c>
+                    <c text="is clicked" code="2"></c>
+				</choices>
+			</dropdown>
+        </fields>
+    </block>
+	
+	<block tag="showInterstitial" spec="Show AdMob Interstitial with minimal Interval time: %0 minimal time to Call Before Display: %1  [c:admob]" code="AdMob.showInterstitial(~,~);" help="Minimal Interval time in seconds, 'Show AdMob Interstitial' cannot been called in this time. - Minimal time in seconds before display Interstitial ad after 'Show AdMob Interstitial' is called " type="action" color="charcoal" returns="void">
+        <fields>
+		<number order="0"></number>
+		<number order="1"></number>
+        </fields>
+    </block>
+       
+    <block tag="getInterstitialInfo" spec="AdMob Interstitial ad %0 [c:admob]" code="AdMob.getInterstitialInfo(~)" type="normal" color="charcoal" returns="boolean">
+        <fields>
+            <dropdown order="0">
+				<choices>
+					<c text="did successfully load" code="0"></c>
+					<c text="did fail to load" code="1"></c>
+					<c text="is Closed" code="2"></c>
+					<c text="is clicked" code="3"></c>
+				</choices>
+			</dropdown>
+        </fields>
+    </block>
+
+</palette>

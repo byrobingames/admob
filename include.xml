@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+	<section if="android">
+        <classpath name="src" />
+		
+		<dependency name="google" path="dependencies/admob" if="android" />
+        
+        <android extension="com.byrobin.admobex.AdMobEx" />
+	</section>
+	<section if="ios">
+		<ndll name="admobex" />
+		<dependency path="frameworks/GoogleMobileAds.framework" />
+		<dependency name="AdSupport.framework" />
+		<dependency name="AudioToolbox.framework" />
+		<dependency name="AVFoundation.framework" />
+		<dependency name="CoreGraphics.framework" />
+		<dependency name="CoreMedia.framework" />
+		<dependency name="CoreTelephony.framework" />
+		<dependency name="EventKit.framework" />
+		<dependency name="EventKitUI.framework" />
+		<dependency name="MessageUI.framework" />
+		<dependency name="StoreKit.framework" />
+		<dependency name="SystemConfiguration.framework" />
+	</section>
+</extension>
