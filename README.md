@@ -37,8 +37,8 @@ Or for advanced users:(Not recommended)
 
 Go to https://github.com/byrobingames/admob/wiki for documentation and blocks examlpes
 
-**Error at compiling:**<br/>
-If you get this error at compiling go to: https://github.com/byrobingames/admob/wiki/4.-Error-on-Compiling to resolve this<br/>
+**Error on compiling:**<br/>
+If you get this error on compiling go to: https://github.com/byrobingames/admob/wiki/4.-Error-on-Compiling to resolve this<br/>
 
     [openfl] clang: error: linker command failed with exit code 1 (use -v to see invocation)<br/>
     [openfl] ld: symbol(s) not found for architecture arm64<br/>
