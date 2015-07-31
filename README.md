@@ -36,7 +36,7 @@ Or for advanced users:(Not recommended)
 ## Documentation and Blocks Example
 [Google Admob WIKI](https://github.com/byrobingames/admob/wiki)
 
-If you have this error go to: https://github.com/byrobingames/admob/wiki
+If you get this error at compiling go to: https://github.com/byrobingames/admob/wiki/ to resolve this
 [openfl] clang: error: linker command failed with exit code 1 (use -v to see invocation)<br/>
 [openfl] ld: symbol(s) not found for architecture arm64<br/>
 [openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
