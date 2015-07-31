@@ -36,7 +36,9 @@ Or for advanced users:(Not recommended)
 ## Documentation and Blocks Example
 [Google Admob WIKI](https://github.com/byrobingames/admob/wiki)
 
-I have this error at compile, what to do?<br/>
+If you have this error go to: https://github.com/byrobingames/admob/wiki
+[openfl] clang: error: linker command failed with exit code 1 (use -v to see invocation)<br/>
+[openfl] ld: symbol(s) not found for architecture arm64<br/>
 [openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
 [openfl] -[AdmobController initWithID:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
 [openfl] "_kGADSimulatorID", referenced from:<br/>
@@ -50,8 +52,6 @@ I have this error at compile, what to do?<br/>
 [openfl] "_OBJC_CLASS_$_GADInterstitial", referenced from:<br/>
 [openfl] objc-class-ref in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
 [openfl] "_OBJC_CLASS_$_GADBannerView", referenced from:<br/>
-
-If you have this error go to: https://github.com/byrobingames/admob/wiki
 
 ## Donate
 
