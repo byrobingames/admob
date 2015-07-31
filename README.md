@@ -12,7 +12,7 @@ Stencyl extension for "Google AdMob" on iOS and Android. This extension allows y
   * Allows you to specify min amount of calls to interstitial before it actually gets displayed (to avoid annoying your users).
 
 ## How to Install
-Download zip file on the right of the screen. ![download](http://www.byrobingames.com/stencyl/heyzap/download.png)<br />
+Download zip file on the right of the screen. ![download](http://www.byrobingames.com/stencyl/heyzap/download.png) on this page  https://github.com/byrobingames/admob<br />
 Go to : http://community.stencyl.com/index.php/topic,30432.0.html
 
 If you have already install a previous version (3.3.3 or lower) of admob, you will see two extension in "Settings->Extensions". This is because of the renamed folder you just downloaded from GitHub.
