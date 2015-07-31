@@ -34,8 +34,10 @@ Or for advanced users:(Not recommended)
 - You have to do this every time you download a updated version fom GitHub.
 
 ## Documentation and Blocks Example
-[Google Admob WIKI](https://github.com/byrobingames/admob/wiki)
 
+Go to https://github.com/byrobingames/admob/wiki for documentation and blocks examlpes
+
+**Error at compiling:**
 If you get this error at compiling go to: https://github.com/byrobingames/admob/wiki/ to resolve this
 [openfl] clang: error: linker command failed with exit code 1 (use -v to see invocation)<br/>
 [openfl] ld: symbol(s) not found for architecture arm64<br/>
