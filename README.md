@@ -15,8 +15,8 @@ Stencyl extension for "Google AdMob" on iOS and Android. This extension allows y
 Download zip file on the right of the screen. ![download](http://www.byrobingames.com/stencyl/heyzap/download.png)<br />
 Go to : http://community.stencyl.com/index.php/topic,30432.0.html
 
-If you have already install a previous version of admob, you will see two (3.3.3 or lower) extension. This is because of the renamed folder you downloaded from GitHub.
-If this is you case, do the following:
+If you have already install a previous version (3.3.3 or lower) of admob, you will see two extension. This is because of the renamed folder you just downloaded from GitHub.
+If this is your case, do the following:
 - Go to Settings->Extensions
 - Enable the Admob Extension thats not enabled (press green button "Enable")
 - Disable the Admob Extension thats not disabled (press red button "Disable")
