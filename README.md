@@ -29,15 +29,14 @@ Google is a registered trademark of Google Inc. http://unibrander.com/united-sta
 AdMob is a registrered trademark of Google Inc. http://unibrander.com/united-states/479956US/admob.html
 
 ## License
-For OpenFl.
+build For OpenFl.<br/>
 The MIT License (MIT) - [LICENSE.md](LICENSE.md)
 
 Copyright &copy; 2013 SempaiGames (http://www.sempaigames.com)
 
 Author: Federico Bricker
 
-Make it work for Stencyl Game Engine:
-
+Make it work for Stencyl Game Engine:<br/>
 Copyright © 2014 byRobinGames (http://www.byrobingames.com)
 
 Author: Robin Schaafsma
