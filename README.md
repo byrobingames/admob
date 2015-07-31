@@ -37,8 +37,9 @@ Or for advanced users:(Not recommended)
 
 Go to https://github.com/byrobingames/admob/wiki for documentation and blocks examlpes
 
-**Error at compiling:**
-If you get this error at compiling go to: https://github.com/byrobingames/admob/wiki/ to resolve this
+**Error at compiling:**<br/>
+If you get this error at compiling go to: https://github.com/byrobingames/admob/wiki/ to resolve this<br/>
+
 [openfl] clang: error: linker command failed with exit code 1 (use -v to see invocation)<br/>
 [openfl] ld: symbol(s) not found for architecture arm64<br/>
 [openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
