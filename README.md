@@ -38,23 +38,23 @@ Or for advanced users:(Not recommended)
 Go to https://github.com/byrobingames/admob/wiki for documentation and blocks examlpes
 
 **Error at compiling:**<br/>
-If you get this error at compiling go to: https://github.com/byrobingames/admob/wiki/ to resolve this<br/>
+If you get this error at compiling go to: https://github.com/byrobingames/admob/wiki/4.-Error-on-Compiling to resolve this<br/>
 
-[openfl] clang: error: linker command failed with exit code 1 (use -v to see invocation)<br/>
-[openfl] ld: symbol(s) not found for architecture arm64<br/>
-[openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
-[openfl] -[AdmobController initWithID:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
-[openfl] "_kGADSimulatorID", referenced from:<br/>
-[openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
-[openfl] "_kGADAdSizeSmartBannerLandscape", referenced from:<br/>
-[openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
-[openfl] "_kGADAdSizeSmartBannerPortrait", referenced from:<br/>
-[openfl] objc-class-ref in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
-[openfl] "_OBJC_CLASS_$_GADRequest", referenced from:<br/>
-[openfl] objc-class-ref in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
-[openfl] "_OBJC_CLASS_$_GADInterstitial", referenced from:<br/>
-[openfl] objc-class-ref in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
-[openfl] "_OBJC_CLASS_$_GADBannerView", referenced from:<br/>
+    [openfl] clang: error: linker command failed with exit code 1 (use -v to see invocation)<br/>
+    [openfl] ld: symbol(s) not found for architecture arm64<br/>
+    [openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+    [openfl] -[AdmobController initWithID:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+    [openfl] "_kGADSimulatorID", referenced from:<br/>
+    [openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+    [openfl] "_kGADAdSizeSmartBannerLandscape", referenced from:<br/>
+    [openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+    [openfl] "_kGADAdSizeSmartBannerPortrait", referenced from:<br/>
+    [openfl] objc-class-ref in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+    [openfl] "_OBJC_CLASS_$_GADRequest", referenced from:<br/>
+    [openfl] objc-class-ref in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+    [openfl] "_OBJC_CLASS_$_GADInterstitial", referenced from:<br/>
+    [openfl] objc-class-ref in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+    [openfl] "_OBJC_CLASS_$_GADBannerView", referenced from:<br/>
 
 ## Donate
 
