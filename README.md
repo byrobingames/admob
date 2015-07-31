@@ -15,7 +15,7 @@ Stencyl extension for "Google AdMob" on iOS and Android. This extension allows y
 Download zip file on the right of the screen. ![download](http://www.byrobingames.com/stencyl/heyzap/download.png)<br />
 Go to : http://community.stencyl.com/index.php/topic,30432.0.html
 
-If you have already install a previous version (3.3.3 or lower) of admob, you will see two extension. This is because of the renamed folder you just downloaded from GitHub.
+If you have already install a previous version (3.3.3 or lower) of admob, you will see two extension in "Settings->Extensions". This is because of the renamed folder you just downloaded from GitHub.
 If this is your case, do the following:
 - Go to Settings->Extensions
 - Enable the Admob Extension thats not enabled (press green button "Enable")
@@ -27,8 +27,31 @@ If this is your case, do the following:
 - You see can in Settings->Extensions, there is now jus one Admob extension.
 - The blocks you already used with previous version subsist.
 
+Or for advanced users:(Not recommended)
+- Unzip admob-master.zip you just download
+- Rename folder from "admob-master" to "admob"
+- Copy the admob folder and paste it in "YOURDOCUMENTFOLDER/stencylworks/engine-extensions/"
+- You have to do this every time you download a updated version fom GitHub.
+
 ## Documentation and Blocks Example
 [Google Admob WIKI](https://github.com/byrobingames/admob/wiki)
+
+I have this error at compile, what to do?<br/>
+[openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+[openfl] -[AdmobController initWithID:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+[openfl] "_kGADSimulatorID", referenced from:<br/>
+[openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+[openfl] "_kGADAdSizeSmartBannerLandscape", referenced from:<br/>
+[openfl] -[AdmobController initWithBannerID:withGravity:] in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+[openfl] "_kGADAdSizeSmartBannerPortrait", referenced from:<br/>
+[openfl] objc-class-ref in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+[openfl] "_OBJC_CLASS_$_GADRequest", referenced from:<br/>
+[openfl] objc-class-ref in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+[openfl] "_OBJC_CLASS_$_GADInterstitial", referenced from:<br/>
+[openfl] objc-class-ref in libadmobex.a(7f1c4f12_AdMobEx.o)<br/>
+[openfl] "_OBJC_CLASS_$_GADBannerView", referenced from:<br/>
+
+If you have this error go to: https://github.com/byrobingames/admob/wiki
 
 ## Donate
 
