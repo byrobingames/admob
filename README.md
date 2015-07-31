@@ -1,4 +1,4 @@
-## Stencyl Heyzap Advertising Extension (Openfl)
+## Stencyl Google Admob Advertising Extension (Openfl)
 
 For Stencyl 3.3 Build 8364 and above
 
