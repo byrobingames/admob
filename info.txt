@@ -1,6 +1,6 @@
-name=AdMob Advertisement (byRobin)
+name=AdMob Advertisement 3.3.5 (byRobin)
 description=Implements AdMob banner and interstitial ads for iOS and Android.
 author=Robin Schaafsma
 website=http://www.byrobingames.com
-version=3.3.4
+version=3.3.5
 compatibility=mobile
