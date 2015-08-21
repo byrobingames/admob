@@ -8,7 +8,7 @@ class AdMob {
 	private static var testingAds:Bool=false;
 	private static var gravityMode:String;
 
-	////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////
 	
 	private static var __init:String->String->String->Bool->Void = function(bannerId:String, interstitialId:String, gravityMode:String, testingAds:Bool){};
 	private static var __showBanner:Void->Void = function(){};
