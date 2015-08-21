@@ -22,4 +22,5 @@
 		<dependency name="StoreKit.framework" />
 		<dependency name="SystemConfiguration.framework" />
 	</section>
+	
 </extension>
